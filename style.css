@@ -1,16 +1,171 @@
 
+/* SKIRTA TIK REDAGUOTI ŠRIFTAMS */
+
+body {
+  font-family: 'Google Sans Code', monospace;
+}
+
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: rgba(0,0,0,0.9);
+}
+
+p, li, a, .antraste, .aprasymas, .savanoryste-užduotys, .kalbos, .savanoryste-organizacija, .savanoryste-data, .issilavinimas-organizacija, .issilavinimas-data {
+  font-family: 'Google Sans Code', monospace;
+  font-weight: 400;
+  color: rgba(0,0,0,0.8);
+  font-size: 0.95rem;
+}
 
 /* BENDRI DALYKAI */
 
+body {
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  line-height: 1.5;
+}
+
+.pagrindinis {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffff;
+}
+
+/* HEADER STILIAI */
+
+.antraste h1 {
+  font-weight: 700;
+  margin: 0 0 0.4rem 0;
+  font-size: 2rem;
+}
+
+.aprasymas {
+  font-size: 0.95rem;
+  color: rgba(0,0,0,0.8);
+  max-width: 800px;
+  margin-bottom: 0.5rem;
+}
+
+.kontaktai {
+  display: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+/* IKONŲ MYGTUKAI */
+
+.ikona-mygtukas {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 12px;
+  margin: 0.25rem;
+  border: 1px solid #cccccc;
+  border-radius: 15px;
+  background: #ffffff;
+  color: #333;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.ikona-mygtukas i {
+  font-size: 1rem;
+}
+
+.ikona-mygtukas:hover {
+  background: #414833;
+  color: #ffffff;
+  border-color: #414833;
+}
+
+/* SECTION STILIAI */
+
+.section {
+  margin-top: 2rem;
+}
+
+.section h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.section p, .savanoryste-uzduotys {
+  font-size: 0.9rem;
+  color: rgba(0,0,0,0.8);
+  margin: 0.5rem 0;
+}
+
 /* SAVANORYSTĖ */
+
+.savanoryste-organizacija {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.savanoryste-data {
+  font-size: 1rem;
+  color: #000000b3;
+  float: right
+}
+
+.savanoryste-valandos {
+  font-size: 15px;
+  color: #000000a6;
+  margin-top: 0.5rem;
+  text-align: right;
+}
 
 /* IŠSILAVINIMAS */
 
+.issilavinimas-eilute {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.3rem;
+}
+
+.issilavinimas-organizacija {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.issilavinimas-data {
+  font-size: 1rem;
+  color: #000000b3;
+  float: right;
+}
+
 /* ĮGŪDŽIAI */
+
+.section-igudziai .igudziai-sarasas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.sarasas-punktas {
+  background-color: #e9ecef;
+  padding: 6px 12px;
+  border-radius: 10px;
+  font-size: 15px;
+}
 
 /* KALBOS */
 
 .kalbos {
-  font-weight: bold;
-  background-color: aqua;
+  font-size: 15px;
+  color: #000000cc;
+  margin-bottom: 0.5rem;
 }

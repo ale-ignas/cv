@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="lt">
 
@@ -8,7 +9,12 @@
 
     <title>Ignas Aleksiejūnas - CV</title>
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Šrifto biblioteka -->
+    <!-- font-family: 'Google Sans Code', monospace; -->
+    <!-- font-family: 'Raleway', sans-serif --> 
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <!-- Ikonėlių biblioteka -->
     <script src="https://kit.fontawesome.com/b20638a482.js" crossorigin="anonymous"></script>
@@ -17,51 +23,80 @@
 
 <body>
   
-  <header>
+  <div class="pagrindinis">
+
+  <header class="antraste">
+
+    <div>
+
+      <h1>Ignas Aleksiejūnas</h1> <!-- APIE MANE -->
+      <p class="aprasymas">Esu 16 metų moksleivis, mokausi III gimnazijos klasėje. Esu punktualus, kruopštus ir mėgstantis tvarką. Moku dirbti ir komandoje, ir individualiai. Neturiu darbo patirties, bet greitai mokausi.</p>
     
-    <h1>Ignas Aleksiejūnas</h1>
-    <p>+370 623 92693　ignas.aleksiejunas@gmail.com　Kaunas, Lietuva</p>
-  
+      <div class="kontaktai"> <!-- MYGTUKAI -->
+        
+        <!-- EL. PAŠTAS -->
+        <a href="mailto:ingas.aleksiejunas@gmail.com" class="ikona-mygtukas">
+          <i class="fa-solid fa-envelope"></i>
+          <span>ignas.aleksiejunas@gmail.com</span>
+        </a>
+        
+        <!-- TELEFONO NUMERIS -->
+        <a href="tel:+37062392693" class="ikona-mygtukas">
+          <i class="fa-solid fa-phone"></i>
+          <span>+370 623 92693</span>
+        </a>
+        
+        <!-- VIETA -->
+        <a href="https://www.google.com/maps/place/Kaunas" target="_blank" class="ikona-mygtukas">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Kaunas, Lietuva</span>
+        </a>
+
+      </div>
+
+    </div>
+
   </header>
 
   <main>
     
-    <section class="section-aprašymas"> <!-- APIE MANE -->
-
-      <h2>Apie mane</h2>
-      <p>Esu 16 metų moksleivis, mokausi III gimnazijos klasėje. Esu punktualus, kruopštus ir mėgstantis tvarką. Moku dirbti ir komandoje, ir individualiai. Neturiu darbo patirties, bet greitai mokausi.</p>
-
-    </section>
-
-
-
-    <section class="section-savanorystė"> <!-- ILGALAIKĖ SAVANORYSTĖ -->
+    <section class="section"> <!-- ILGALAIKĖ SAVANORYSTĖ -->
       
       <h2>Ilgalaikė savanorystė</h2> 
       
-      <div class="savanorystė-veikla">
+      <div class="savanoryste-veikla"> <!-- VEIKLA #1 -->
 
-        <div class="savanorystė-organizacija">Plaukimo akademija „Banga“</div>
-        <div class="savanorystė-data">2023 09 – Dabar</div>
-        
-        <div class="savanorystė-užduotys">Įgijau įgūdžių dirbti komandoje, laikytis tvarkos ir disciplinos.</div>
-        <div class="savanorystė-valandos">Išrašyta 40 soc. val.</div>
+        <div class="savanoryste-antrase">
 
-        <div class="savanorystė-užduotys">Pagelbėjau varžybų dalyviams rasti informaciją susijusią su rungtimis.</div>
-        <div class="savanorystė-tuščia">&nbsp;</div>
+          <div class="savanoryste-organizacija">Plaukimo akademija „Banga“</div>
+          <div class="savanoryste-data">2023 09 – Dabar</div>
+
+        </div>
+
+        <div class="savanoryste-uzduotys">
+          <p>Įgijau įgūdžių dirbti komandoje, laikytis tvarkos ir disciplinos.</p>
+          <p>Pagelbėjau varžybų dalyviams rasti informaciją susijusią su rungtimis.</p>
+        </div>
+
+        <div class="savanoryste-valandos">Išrašyta +50 soc. val.</div>
       
       </div>
       
-      <div class="savanorystė-veikla">
+      <div class="savanoryste-veikla"> <!-- VEIKLA #2 -->
 
-        <div class="savanorystė-organizacija">Lukrecijos labdaros ir paramos fondas „Gerumo dėžutė“</div>
-        <div class="savanorystė-data">2024 01 – 2024 05</div>
+        <div class="savanoryste-antrase">
+          
+          <div class="savanoryste-organizacija">Lukrecijos labdaros ir paramos fondas „Gerumo dėžutė“</div>
+          <div class="savanoryste-data">2024 01 – 2024 05</div>
 
-        <div class="savanorystė-užduotys">Pakavau dėžutes, kurios buvo išsiunčiamos kaip padėka už paramą.</div>
-        <div class="savanorystė-tuščia">Išrašyta 30 soc. val.</div>
+        </div>
 
-        <div class="savanorystė-užduotys">Bendradarbiavau su įmonėmis, galinčiomis prisidėti prie šio kilnaus tikslo.</div>
-        <div class="savanorystė-valandos">&nbsp;</div>
+        <div class="savanoryste-užduotys">
+          <p>Pakavau dėžutes, kurios buvo išsiunčiamos kaip padėka už paramą.</p>
+          <p>Bendradarbiavau su įmonėmis, galinčiomis prisidėti prie šio kilnaus tikslo.</p>
+        </div>
+
+        <div class="savanoryste-valandos">Išrašyta 30 soc. val.</div>
       
       </div>
     
@@ -69,11 +104,11 @@
 
 
 
-    <section class="section-savanorystė"> <!-- TRUMPALAIKĖ SAVANORYSTĖ -->
+    <section class="section"> <!-- TRUMPALAIKĖ SAVANORYSTĖ -->
 
       <h2>Trumpalaikė savanorystė</h2> 
 
-      <div class="savanorystė-veikla">
+      <div class="savanorystė-veikla"> <!-- VEIKLA #1 -->
 
         <div class="savanorystė-organizacija">Modernios penkiakovės pasaulio čempionatas</div>
         <div class="savanorystė-data">2025 08 26 - 2025 08 30</div>
@@ -86,7 +121,7 @@
       
       </div>
 
-      <div class="savanorystė-veikla">
+      <div class="savanorystė-veikla"> <!-- VEIKLA #2 -->
 
         <div class="savanorystė-organizacija">Dviračių renginys „Velomaratonas 2025“</div>
         <div class="savanorystė-data">2025 08 24</div>
@@ -99,7 +134,7 @@
       
       </div>
 
-      <div class="savanorystė-veikla">
+      <div class="savanorystė-veikla"> <!-- VEIKLA #3 -->
 
         <div class="savanorystė-organizacija">Europos U15 ir U19 šiuolaikinės penkiakovės čempionatas</div>
         <div class="savanorystė-data">2025 07 26 - 2025 07 31</div>
@@ -115,7 +150,7 @@
       
       </div>
 
-      <div class="savanorystė-veikla">
+      <div class="savanorystė-veikla"> <!-- VEIKLA #4 -->
 
         <div class="savanorystė-organizacija">Lietuvos samariečių bendrija</div>
         <div class="savanorystė-data">2024 03 09</div>
@@ -132,36 +167,48 @@
 
 
 
-    <section class="section-išsilavinimas"> <!-- IŠSILAVINIMAS -->
+    <section class="section"> <!-- IŠSILAVINIMAS -->
 
       <h2>Išsilavinimas</h2> 
 
-      <div class="išsilavinimas-organizacija">VDU moksleivių universitetas</div>
-      <div class="išsilavinimas-data">2025 09 – Dabar</div>
+      <div class="issilavinimas-eilute">
 
-      <div class="išsilavinimas-organizacija">Kauno Jono Pauliaus II gimnazija</div>
-      <div class="išsilavinimas-data">2015 09 – Dabar</div>
+        <div class="issilavinimas-organizacija">VDU moksleivių universitetas</div>
+        <div class="issilavinimas-data">2025 09 – Dabar</div>
+
+      </div>
+
+      <div class="issilavinimas-eilute">
+
+        <div class="issilavinimas-organizacija">Kauno Jono Pauliaus II gimnazija</div>
+        <div class="issilavinimas-data">2015 09 – Dabar</div>
+
+      </div>
 
     </section>
 
 
 
-    <section class="section-įgūdžiai"> <!-- ĮGŪDŽIAI -->
+    <section class="section section-igudziai"> <!-- ĮGŪDŽIAI -->
 
       <h2>Įgūdžiai</h2> 
+      
+      <div class="igudziai-sarasas">
 
-      <div>Punktualumas, laiko planavimas</div>
-      <div>Darbas komandoje, individualiai</div>
-      <div>Pastabumas, dėmesys detalėms</div>
-      <div>Prisitaikymas prie situacijų</div>
-      <div>Komunikabilumas</div>
-      <div>Darbas su MS Office</div>
+        <div class="sarasas-punktas">Punktualumas, laiko planavimas</div>
+        <div class="sarasas-punktas">Darbas komandoje, individualiai</div>
+        <div class="sarasas-punktas">Komunikabilumas</div>
+        <div class="sarasas-punktas">Pastabumas, dėmesys detalėms</div>
+        <div class="sarasas-punktas">Prisitaikymas prie situacijų</div>
+        <div class="sarasas-punktas">Darbas su MS Office</div>
+
+      </div>
 
     </section>
 
 
 
-    <section class="section-kalbos"> <!-- KALBOS -->
+    <section class="section"> <!-- KALBOS -->
 
       <h2>Kalbos</h2>
 
@@ -169,7 +216,9 @@
       <div class="kalbos"><b>Anglų</b> - laisvai</div>
 
     </section>
+  
+  </main>
 
-    </main>
+</div>
 
 </body>
